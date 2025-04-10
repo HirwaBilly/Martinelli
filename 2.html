@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="2.js">
+</head>
+<body class="light-mode" data-page="main">
+    <header>
+        <div class="container">
+            <div class="logo">Billy.</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" id="dashboard-link" class="dashboard-link">Dashboard</a></li>
+                </ul>
+               
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Portfolio Page -->
+    <main id="portfolio-page">
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Billy Chris</h1>
+                        <p class="tagline">Full Stack Developer & UI/UX Designer</p>
+                        <p class="hero-description">I create meaningful digital experiences that combine beautiful design with powerful functionality.</p>
+                        <a href="#projects" class="btn">See My Projects</a>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-picture">
+                            <!-- Profile image placeholder -->
+                            <img src="yong ronaldo.jpg" alt="John Doe">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="cyber-monday-shopping-sales.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A responsive e-commerce website with product filtering, cart functionality, and secure checkout.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Demo</a>
+                                <a href="https://github.com/HirwaBilly/transactions" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="weather.jpg" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather App</h3>
+                            <p>A weather application that provides current weather data and forecasts for any location using API integration.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Demo</a>
+                                <a href="https://github.com/HirwaBilly/transactions" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="task m.jpg" alt="Project 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Manager</h3>
+                            <p>A productivity application to manage and organize tasks with features like categories, priorities, and deadlines.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>LocalStorage</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Demo</a>
+                                <a href="https://github.com/HirwaBilly/transactions" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>University of Technology</h3>
+                            <p class="education-program">Bachelor of Science in Computer Science</p>
+                            <p class="education-date">2018 - 2022</p>
+                            <p>Specialized in web development and software engineering with a minor in UI/UX design.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Frontend Development Bootcamp</h3>
+                            <p class="education-program">Advanced Certificate</p>
+                            <p class="education-date">2022</p>
+                            <p>Intensive 12-week program focused on modern frontend technologies and frameworks.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>AWS Certified Developer</h3>
+                            <p class="education-program">Professional Certification</p>
+                            <p class="education-date">2023</p>
+                            <p>Certified in deploying and managing applications on AWS infrastructure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="container">
+                <h2 class="section-title">My Blog</h2>
+                <div class="blog-filter">
+                    <input type="text" id="blog-search" placeholder="Search blog posts..." class="search-input">
+                </div>
+                <div id="blog-posts" class="blog-grid">
+                    <!-- Blog posts will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>chrisbilly@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+250 793820452</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Kigali,Rwanda</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/HirwaBilly"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/__Martinelli11"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            <button type="submit" class="btn btn-full">Send Message</button>
+                        </form>
+                        <div id="form-success" class="success-message hidden">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Your message has been sent successfully!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dashboard Page -->
+    <main id="dashboard-page" class="hidden">
+        <section id="dashboard">
+            <div class="container">
+                <div class="dashboard-header">
+                    <h2 class="section-title">Blog Dashboard</h2>
+                    <div class="dashboard-controls">
+                        <button id="new-post-btn" class="btn">New Post</button>
+                        <button id="back-to-portfolio" class="btn btn-outline">Back to Portfolio</button>
+                    </div>
+                </div>
+
+                <div id="login-container" class="login-container">
+                    <div class="login-form">
+                        <h3>Dashboard Login</h3>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter dashboard password">
+                            <span class="error-message" id="password-error"></span>
+                        </div>
+                        <button id="login-btn" class="btn btn-full">Log In</button>
+                    </div>
+                </div>
+
+                <div id="dashboard-content" class="dashboard-content hidden">
+                    <div id="post-editor" class="post-editor hidden">
+                        <h3 id="editor-title">Create New Post</h3>
+                        <form id="post-form">
+                            <input type="hidden" id="post-id">
+                            <div class="form-group">
+                                <label for="post-title">Title</label>
+                                <input type="text" id="post-title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="post-date">Date</label>
+                                <input type="date" id="post-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="post-content">Content</label>
+                                <textarea id="post-content" rows="10" required></textarea>
+                            </div>
+                            <div class="form-buttons">
+                                <button type="button" id="cancel-btn" class="btn btn-outline">Cancel</button>
+                                <button type="submit" class="btn">Save Post</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="posts-list" class="posts-list">
+                        <h3>All Posts</h3>
+                        <div class="post-table-header">
+                            <div class="post-title-header">Title</div>
+                            <div class="post-date-header">Date</div>
+                            <div class="post-actions-header">Actions</div>
+                        </div>
+                        <div id="dashboard-posts">
+                            <!-- Posts will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Billy Chris</h3>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/HirwaBilly"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/__Martinelli11"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/b.i.l.l.y11/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 John Doe. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
